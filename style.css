@@ -5,3 +5,26 @@ body {
   color: #fff;
   font-size: 1.2rem;
 }
+
+header {
+  width: 1200px;
+  max-width: 80%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}
+
+header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1rem;
+}
