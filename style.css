@@ -324,3 +324,8 @@ header nav a {
     opacity: 0;
   }
 }
+
+.slider.next .arrows button,
+.slider.prev .arrows button {
+  pointer-events: none;
+}
