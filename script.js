@@ -4,6 +4,11 @@ const thumbnail = document.querySelector(".thumbnail");
 const next = document.querySelector("#next");
 const prev = document.querySelector("#prev");
 
+// Autoplay Slider
+let runAutoPlay = setTimeout(() => {
+  next.click();
+}, 8000);
+
 // Event bottom click
 next.addEventListener("click", () => {
   initSlider("next");
@@ -32,4 +37,9 @@ const initSlider = (type) => {
     slider.classList.remove("next");
     slider.classList.remove("prev");
   }, 2000);
+
+  clearTimeout(runAutoPlay);
+  runAutoPlay = setTimeout(() => {
+    next.click();
+  }, 8000);
 };
