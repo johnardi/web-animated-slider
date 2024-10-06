@@ -329,3 +329,25 @@ header nav a {
 .slider.prev .arrows button {
   pointer-events: none;
 }
+
+.loading-bar {
+  width: 0%;
+  height: 5px;
+  background-color: #f80;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.slider.next .loading-bar,
+.slider.prev .loading-bar {
+  width: 100%;
+  animation: loadingTime 2s linear 1 forwards;
+}
+
+@keyframes loadingTime {
+  to {
+    width: 0;
+  }
+}
