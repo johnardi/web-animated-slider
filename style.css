@@ -351,3 +351,15 @@ header nav a {
     width: 0;
   }
 }
+
+/* Mobile Breakpoint */
+@media screen and (max-width: 678px) {
+  .slider .list .item .detail .name {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+
+  .slider .list .item .detail .desc {
+    font-size: 0.8rem;
+  }
+}
