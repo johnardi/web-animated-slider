@@ -5,5 +5,6 @@ This is very easy to use template, you just need to download the html & css file
 Open the index.html file in your browser and your website is ready!
 ### 🖼 Screenshots:
 <div align="center" width="50">
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/sp-xd" alt="CoDiNg RocKs"  width="60%"/><br>
+<img src="https://github.com/johnardi/web-animated-slider/blob/main/web-animated-slider.gif?raw=true" href="https://github.com/sp-xd"  width="60%"/><br>
+<p><strong> With Automatic Slide </strong></p>
 </div>
